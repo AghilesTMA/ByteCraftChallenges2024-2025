@@ -1,6 +1,6 @@
 # ByteCraft Backend Development Challenge 2024/2025
 
-We are excited to present three levels of backend development challenges. Choose the level that matches your experience and complete the challenge within [your deadline].
+We are excited to present three levels of backend development challenges. Choose the level that matches your experience and complete the challenge within the deadline.
 
 ## 🌱 Beginner Level: User Authentication System
 
