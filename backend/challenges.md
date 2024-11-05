@@ -39,23 +39,28 @@ Build a secure user authentication system with essential features.
    - Error handling
    - Database integration (MongoDB/PostgreSQL)
 
-### Bonus Features:
+### Bonus Features
+
 - Email verification
 - Password reset
 - Remember me functionality
 
 ## 🚀 Intermediate Level: Blog API
+
 Create a fully functional blog API with user interaction features.
 
-### Required Features:
+### Required Features
+
 1. User Authentication (similar to beginner level)
 2. Blog Post Management
 3. Comments System
 4. Categories
 5. Like/Unlike functionality
 
-### Technical Requirements:
+### Technical Requirements
+
 1. API Endpoints:
+
 ```
 Posts:
 - Create: POST /api/posts
@@ -74,6 +79,7 @@ Likes:
 ```
 
 2. Data Models Structure:
+
 ```javascript
 Post {
   title: string (required),
@@ -100,23 +106,27 @@ Comment {
    - Pagination
    - Search functionality
 
-### Bonus Features:
+### Bonus Features
+
 - Image upload
 - Post drafts
 - Tags system
 - Post views counter
 
 ## 🎯 Advanced Level: Real-time Chat Application
+
 Develop a real-time chat application with rooms and authentication.
 
-### Required Features:
+### Required Features
+
 1. User Authentication
 2. Real-time Messaging
 3. Chat Rooms
 4. Online Status
 5. Message History
 
-### Technical Requirements:
+### Technical Requirements
+
 1. Implementation:
    - WebSocket integration (Socket.io)
    - Real-time message delivery
@@ -124,6 +134,7 @@ Develop a real-time chat application with rooms and authentication.
    - User presence tracking
 
 2. API Endpoints:
+
 ```
 Auth:
 - Register: POST /api/auth/register
@@ -140,6 +151,7 @@ Messages:
 ```
 
 3. WebSocket Events:
+
 ```javascript
 // Client -> Server
 'join_room',
@@ -161,14 +173,16 @@ Messages:
    - Error handling
    - Room access control
 
-### Bonus Features:
+### Bonus Features
+
 - Private messaging
 - File sharing
 - Read receipts
 - Message editing/deletion
 - User avatars
 
-## General Requirements (All Levels):
+## General Requirements (All Levels)
+
 1. Code Quality:
    - Clean code structure
    - Proper documentation
@@ -177,19 +191,14 @@ Messages:
    - Security best practices
 
 2. Technical Stack:
-   - Node.js/Express.js
-   - MongoDB/PostgreSQL
-   - JWT for authentication
-   - Required libraries documentation
+   - Choose the tech stack you are the most comfortable with.
 
 3. Submission Requirements:
    - GitHub repository
    - README with:
-     * Setup instructions
-     * API documentation
-     * Environment variables list
-     * Dependencies list
+     - Setup instructions
+     - API documentation
+     - Environment variables list
+     - Dependencies list
    - .env.example file
    - Postman/Thunder Client collection (optional)
-
-Would you like me to add any specific details or modify any part of these challenge descriptions?
